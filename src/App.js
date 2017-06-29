@@ -16,8 +16,8 @@ class App extends Component {
       <div className="ui container">
         <div className="ui three item menu">
           <ActiveLink activeClassName to="/" label="Home" />
-          <ActiveLink activeClassName to="/games" label="Games" />
-          <ActiveLink activeClassName to="/games/new" label="Add New Game" />
+          <ActiveLink activeClassName to="/games" label="Catalog" />
+          <ActiveLink activeClassName to="/games/new" label="Add Product" />
         </div>
 
         <Route exact path="/games" component={GamesPage} />
